@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# this script is used for development. you should probably use flash.sh instead.
+#
+
+dfu-programmer atmega32u4 erase --suppress-bootloader-mem 
+dfu-programmer atmega32u4 flash ./keyboard.hex --suppress-bootloader-mem 
+dfu-programmer atmega32u4 start 
+

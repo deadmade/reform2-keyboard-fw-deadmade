@@ -1,0 +1,12 @@
+# Build artifacts
+keyboard.bin
+keyboard.eep
+keyboard.elf
+keyboard.hex
+keyboard.lss
+keyboard.map
+keyboard.sym
+obj/
+
+# Nix direnv cache
+.direnv/
